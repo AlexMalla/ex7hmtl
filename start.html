@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
+    />
+    <title>Esercizio 7</title>
+    <style>
+      label {
+        display: block;
+      }
+    </style>
+    <link rel="stylesheet" href="start.css" />
+  </head>
+
+  <body>
+    <center>
+      <div>
+        <label for="email">E-mail:</label>
+        <input type="email" name="email" required />
+      </div>
+
+      <div>
+        <label for="pass">Password:</label>
+        <input type="password" name="password" required />
+      </div>
+
+      <div>
+        <label for="name">Nome:</label>
+        <input type="text" name="name" required />
+      </div>
+
+      <div>
+        <label for="surname">Cognome:</label>
+        <input type="text" name="surname" required />
+      </div>
+
+      <div>
+        <label for="birth">Data di nascita</label>
+        <input type="date" name="birth" required />
+      </div>
+
+      <table>
+        <caption>
+          <p>Scegli il tuo piano di abbonamento:</p>
+        </caption>
+        <tr>
+          <td>Basic</td>
+          <td>Pro</td>
+          <td>Premium</td>
+        </tr>
+
+        <tr>
+          <td>Free</td>
+          <td>4,99€/mese</td>
+          <td>9,99€/mese</td>
+        </tr>
+
+        <tr>
+          <td>Fino a due schermi</td>
+          <td>Fino a 4 schermi</td>
+          <td>Fino a 7 schermi</td>
+        </tr>
+
+        <tr>
+          <td>HD</td>
+          <td>Full HD</td>
+          <td>4K</td>
+        </tr>
+
+        <tr>
+          <td>/</td>
+          <td>Disdici quando vuoi</td>
+          <td>Disdici quando vuoi</td>
+        </tr>
+
+        <tr>
+          <td>
+            <input type="checkbox" name="Checkbox" checked />
+            <label>Se ti accontenti</label>
+          </td>
+          <td>
+            <input type="checkbox" name="Checkbox" />
+            <label>Se vuoi qualcosa in più</label>
+          </td>
+          <td>
+            <input type="checkbox" name="Checkbox" />
+            <label>Se vuoi il massimo</label>
+          </td>
+        </tr>
+      </table>
+
+      <h1>Checkout</h1>
+      <form>
+        <input placeholder="Numero della carta" type="number" />
+        <div class="half">
+          <input placeholder="MM-AA" type="number" />
+          <input placeholder="CVC" type="number" />
+          <input placeholder="Indirizzo di fatturazione" type="text" />
+        </div>
+        <button type="submit">Paga adesso</button>
+      </form>
+    </center>
+  </body>
+</html>
